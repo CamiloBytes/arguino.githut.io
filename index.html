@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arduinos</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1 data-i18n="welcome_message">ARDUINOS</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a class="nav-link" href="index.html" data-i18n="nav_home">inicio</a></li>
+            <li><a class="nav-link" href="arduino2.html" data-i18n="nav_video">Para que Sirven</a></li>
+            <li><a class="nav=link" href="arduino3.html" data-i18n="nav_folleto"> Tipos de Arduinos</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2 data-i18n="main_title">Que es un Arduino</h2>
+        <p data-i18n="main_content">
+            Arduino es una plataforma de hardware y software de código abierto que permite crear y programar proyectos electrónicos interactivos. Se compone de una placa de microcontrolador y un entorno de desarrollo integrado (IDE) que facilita la escritura y carga de programas en la placa. Gracias a su sencillez y versatilidad, Arduino ha ganado popularidad entre aficionados, estudiantes y profesionales en diversos campos.
+        </p>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/30LiOLyZZOg?si=7XgqYLDcTi7xNsXE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <marquee behavior="" direction="">Este video te explicara mas afondo</marquee>
+        
+    </main>
+    <div class="comments-section">
+        <h3 data-i18n="comments_title">Comentarios</h3>
+        <ul id="comment-list"></ul>
+        <input type="text" id="comment-input" placeholder="Escribe un comentario..." data-i18n="[placeholder]comments_placeholder">
+        <button onclick="submitComment()" data-i18n="comments_button">Enviar</button>
+    </div>
+    <footer>
+        <p data-i18n="contact_info">Contacto: caparra@unibarranquilla.edu.co | Tel: 312 2900111</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArduinoS</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>ARDUINOS</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a class="nav-link" href="index.html" data-i18n="nav_home">Inicio</a></li>
+            <li><a class="nav-link" href="arduino2.html" data-i18n="nav_arduino2">Para que Sirven</a></li>
+            <li><a class="nav-link" href="arduino3.html" data-i18n="nav_arduino3">Tipos de Arduinos</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="catalogo">
+            <div class="producto">
+                <h2>Arduino Uno</h2>
+                <img src="img/arduino1.jpg" alt=""">
+                <p>El Arduino Uno es una de las placas más populares y versátiles. Ideal para principiantes y proyectos intermedios.</p>
+            </div>
+            <div class="producto">
+                <h2>Arduino Mega</h2>
+                <img src="img/arduino2.png" alt="">
+                <p>El Arduino Mega ofrece más pines y memoria que el Uno, adecuado para proyectos más complejos.</p>
+            </div>
+            <div class="producto">
+                <h2>Arduino Yun</h2>
+                <img src="img/arduino-yun-1.webp" alt="">
+                <p>El Arduino Yún es una placa que combina la capacidad de un Arduino con un microprocesador Linux, facilitando la conexión a redes WiFi para proyectos de Internet de las Cosas (IoT).</p>
+            </div>
+            <div class="producto">
+                <h2>Arduino Nano</h2>
+                <img src="img/arduino-nano.webp" alt="">
+                <p>El Arduino Nano es una placa microcontroladora pequeña, basada en el ATmega328P, ideal para proyectos compactos debido a su tamaño reducido y versatilidad. </p>
+            </div>
+            <div class="producto">
+                <h2>Arduino leonardo</h2>
+                <img src="img/arduino-leonardo.webp" alt="">
+                <p>El Arduino Leonardo es una placa microcontroladora basada en el ATmega32u4, destacada por tener una interfaz USB integrada, lo que permite emular dispositivos USB como teclados y ratones.</p>
+            </div>
+        </div>
+    </main>
+    <div class="comments-section">
+        <h3 data-i18n="comments_title">Comentarios</h3>
+        <ul id="comment-list"></ul>
+        <input type="text" id="comment-input" placeholder="Escribe un comentario..." data-i18n="[placeholder]comments_placeholder">
+        <button onclick="submitComment()" data-i18n="comments_button">Enviar</button>
+    </div>
+    <footer>
+        <p>© 2024 Catálogo de Arduinos</p>
+    </footer>
+</body>
+</html>
